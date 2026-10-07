@@ -1,0 +1,10 @@
+# IDEs
+.vscode/
+.idea/
+
+__pycache__/
+.venv/
+*.egg-info/
+*~lock*
+out
+.DS_Store

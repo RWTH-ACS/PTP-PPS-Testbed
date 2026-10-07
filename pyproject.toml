@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PTP-Testbed"
+authors = [
+    { name = "Linus Knaack", email = "linus.knaack@rwth-aachen.de" },
+    { name = "Manuel Pitz", email = "manuel.pitz@eonerc.rwth-aachen.de"}
+]
+description = "Software for the ptp manipulation Testbed"
+readme = "Readme.md"
+requires-python = ">=3.8"
+keywords = []
+license = { text = "Apache License (2.0)" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: pache Software License",
+]
+dependencies = ["pandas", "matplotlib", "pyvisa-py", "nicegui"]
+version = "0.1"
+
+[tool.setuptools]
+packages = []
